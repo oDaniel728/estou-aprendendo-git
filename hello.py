@@ -17,4 +17,4 @@ def main(sys):
             sys.stderr.write("Error (" + str(e.__cause__.__class__.__name__) + ") => " + str(e))
             return 1
   
-sys.stdout.write(main(sys) + "\n")
+sys.stdout.write(str(main(sys)) + "\n")
